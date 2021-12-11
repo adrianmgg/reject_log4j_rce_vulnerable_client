@@ -63,7 +63,7 @@ public class ModMain {
         public int compareTo(ForgeVersion other) {
             int bigDif = Integer.compare(this.a, other.a);
             int medDif = Integer.compare(this.b, other.b);
-            int smlDif = Integer.compare(this.c, other.d);
+            int smlDif = Integer.compare(this.c, other.c);
             int tnyDif = Integer.compare(this.d, other.d);
             if(bigDif != 0) return bigDif;
             else if(medDif != 0) return medDif;
